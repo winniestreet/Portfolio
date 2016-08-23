@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.leftside{
+  background: cover;
+  background-image: url("http://photofiles.alphacoders.com/259/25903.jpg");
+  height: 100vh;
+}
+
+.rightside{
+  background-image: url(http://img-fotki.yandex.ru/get/4711/14124454.285/0_7af2e_30a4bc3b_XXL);
+  height: 100vh
+}
+
+a {
+  text-decoration:none;
+  color:white;
+}
+a:focus, a:hover{
+  background-color: white;
+  color:black;
+  text-decoration: none;
+}
+
+.logo {
+  position:absolute;
+  z-index: 1;
+  width; 100%;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 100px;
+  color: white;
+  margin-top: 40vh;
+  text-align: center;
+
+}
+.cd {
+  color: white;
+  text-decoration: none;
+  margin-top: 55vh;
+  font-size: 20px;
+}
+.cd:hover {
+  color: blue;
+  text-decoration: none;
+  margin-top: 55vh;
+  font-size: 20px;
+}
+
+.nav-style>li{
+  display: inline-block;
+  margin-right: 30px;
+  color:white;
+  /*position: absolute;*/
+}
+
+.nav-style {
+  right: 0px;
+  z-index:5;
+  /*background-color: white;*/
+  position: absolute;
+}
